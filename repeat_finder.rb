@@ -45,6 +45,7 @@ class Repeat_Finder
 
   end
 
+  # O(log n) time, only works on sorted lists
   def efficient_iteration(sorted_num_list, target_num)
 
     num_repeats = 0
